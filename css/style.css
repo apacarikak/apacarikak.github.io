@@ -1,0 +1,162 @@
+.kertas {
+    background-image: url(terangcuy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60%;
+    align-items: center;
+    background-size: cover;
+}
+
+.judul {
+    background-color: #279EFF;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    animation-name: bounce;
+    animation-duration: 2s;
+}
+
+.keterangan {
+    grid-template-rows: 50px 50px 50px;
+}
+
+.haiSemua {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kalkulatorIni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.semoga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kelilingPersegi {
+    background-color: #1c949b;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.luasPersegi {
+    background-color: #1c949b;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.gambarPersegi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgPersegi {
+   width: 30%;
+   height: 30%;
+}
+
+.rumusnya {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.hitungKelilingPersegi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hitungLuasPersegi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.masukkanAngka {
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+}
+
+input {
+    padding: 6px;
+    border: 1px solid #279EFF;
+    border-radius: 4px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #1a2b7e;
+}
+
+.tombol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+button {
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: 1%;
+    font-weight: bold;
+    cursor: pointer;
+    background: #afe2ef;
+    color: #0f1011;
+    margin: 10px 10px;
+}
+
+button:hover {
+    background-color: rgb(31, 179, 130);
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.penutup {
+    background-color: #1ea164;
+    color: rgb(9, 1, 1);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#output1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
